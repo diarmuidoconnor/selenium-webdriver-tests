@@ -15,7 +15,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register specs"
+    "e2e": "mocha --compilers js:babel-core/register specs",
+    "test": "npm run e2e"
   },
   "repository": {
     "type": "git",
